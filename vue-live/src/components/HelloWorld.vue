@@ -5,6 +5,12 @@
     <h2>Essential Links</h2>
     <h6>{{msgCN}}</h6>
   </div>
+
+
+
+
+
+
 </template>
 
 <script>
@@ -18,6 +24,7 @@ export default {
     }
   },
 
+// <!-- 总共分为8个阶段创建前/后，载入前/后，更新前/后，销毁前/后。 -->
   beforeCreate (){
     console.log('beforeCreate-在实例初始化之后，数据观测 (data observer) 和 event/watcher 事件配置之前被调用')
     // 实例刚刚创建，this值是VueComponent实例,能打印出来
